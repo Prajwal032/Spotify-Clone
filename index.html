@@ -2,230 +2,170 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Spotify</title>
-  <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-  <nav class="navbar">
-    <div class="nav-left">
-      <div class="spotify-icon">
-        <i class="fa-brands fa-spotify"></i>
-      </div>
-    </div>
-    <div class="nav-center">
-      <div class="home-icon">
-        <i class="fa-solid fa-house"></i>
-      </div>
-
-      <div class="search-container">
-        <div class="search-icon">
-          <i class="fa-solid fa-search"></i>
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="spotify-icon"> <i class="fa-brands fa-spotify"></i> </div>
         </div>
-        <input type="text" placeholder="What do you want to play?" class="input" />
-        <div class="folder-icon">
-          <i class="fa-regular fa-folder"></i>
-        </div>
-      </div>
-    </div>
-    <div class="nav-right">
-      <div class="explore">Explore Premium</div>
-      <div class="bell-icon"><i class="fa-regular fa-bell"></i></div>
-      <div class="profile">
-        <img src="image/pfp.png" alt="profile" />
-      </div>
-    </div>
-  </nav>
-  <main>
-    <section class="left">
-      <div class="top-holder">
-        <div class="left-top">
-          <div class="left-part">
-            <i class="fa-solid fa-book"></i>
-            <p>Your Library</p>
-          </div>
-          <div class="right-part">
-            <div class="plus">
-              <i class="fa-solid fa-plus"></i>
+        <div class="nav-center">
+            <div class="home-icon"> <i class="fa-solid fa-house"></i> </div>
+            <div class="search-container">
+                <div class="search-icon"> <i class="fa-solid fa-search"></i> </div> <input type="text"
+                    placeholder="What do you want to play?" class="input" />
+                <div class="folder-icon"> <i class="fa-regular fa-folder"></i> </div>
             </div>
-            <div class="arrow">
-              <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <div class="nav-right">
+            <div class="explore">Explore Premium</div>
+            <div class="bell-icon"><i class="fa-regular fa-bell"></i></div>
+            <!-- <div class="people-icon"><i class="fa-solid fa-person"></i></div> -->
+            <div class="profile"> <img src="/images/pfp.png" alt="profile" /> </div>
+        </div>
+    </nav>
+    <main>
+        <section class="left">
+            <div class="top-holder">
+                <div class="left-top">
+                    <div class="left-part"> <i class="fa-solid fa-book"></i>
+                        <p>Your Library</p>
+                    </div>
+                    <div class="right-part">
+                        <div class="plus"> <i class="fa-solid fa-plus"></i> </div>
+                        <div class="arrow"> <i class="fa-solid fa-arrow-right"></i> </div>
+                    </div>
+                </div>
+                <div class="playlist"> <span class="text">Playlists</span> </div>
+                <div class="left-third">
+                    <div class="search-icon"> <i class="fa-solid fa-search"></i> </div>
+                    <div class="recents-icon"> <span class="text">Recents</span> <i class="fa-solid fa-list"></i> </div>
+                </div>
             </div>
-          </div>
-        </div>
-
-        <div class="playlist">
-          <span class="text">Playlists</span>
-        </div>
-        <div class="left-third">
-          <div class="search-icon">
-            <i class="fa-solid fa-search"></i>
-          </div>
-          <div class="recents-icon">
-            <span class="text">Recents</span>
-            <i class="fa-solid fa-list"></i>
-          </div>
-        </div>
-      </div>
-      <div class="item-container">
-        <div class="song-playlist">
-          <div class="image">
-            <img src="image/purna.jpg" alt="purna" />
-          </div>
-          <div class="description">
-            <p class="text">Favourite</p>
-            <div class="playlist">
-              <span>Playlist</span>
-              <span class="dot">.</span>
-              <span>Prajwal Bhattarai</span>
+            <div class="item-container">
+                <div class="song-playlist">
+                    <div class="image"> <img src="/images/purna.jpg" alt="purna" /> </div>
+                    <div class="description">
+                        <p class="text">Favourite</p>
+                        <div class="playlist"> <span>Playlist</span> <span class="dot">.</span> <span>Prajwal
+                                Bhattarai</span> </div>
+                    </div>
+                </div>
+                <div class="song-playlist">
+                    <div class="image"> <img src="/images/lakhau.png" alt="" /> </div>
+                    <div class="description">
+                        <p class="text">FAV</p>
+                        <p class="playlist"> Playlist <span class="dot">.</span> Prajwal Bhattarai </p>
+                    </div>
+                </div>
+                <div class="song-playlist">
+                    <div class="image"> <img src="images/samir.jpg" alt="" /> </div>
+                    <div class="description">
+                        <p class="text">Samir Shrestha Radio</p>
+                        <p class="playlist"> Playlist <span class="dot">.</span> Spotify </p>
+                    </div>
+                </div>
+                <div class="song-playlist">
+                    <div class="image"> <img src="/images/elements.png" alt="" /> </div>
+                    <div class="description">
+                        <p class="text">The Elements Radio</p>
+                        <p class="playlist"> Playlist <span class="dot">.</span> Spotify </p>
+                    </div>
+                </div>
+                <div class="song-playlist">
+                    <div class="image"> <img src="arijit.jpg" alt="" /> </div>
+                    <div class="description">
+                        <p class="text">Arijit Singh Radio</p>
+                        <p class="playlist"> Playlist <span class="dot">.</span> Spotify </p>
+                    </div>
+                </div>
+                <div class="song-playlist">
+                    <div class="image"> <img src="/images/sajjan.jpg" alt="" /> </div>
+                    <div class="description">
+                        <p class="text">Sajjan Raj Vaidya Radio</p>
+                        <p class="playlist"> Playlist <span class="dot">.</span> Spotify </p>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="song-playlist">
-          <div class="image">
-            <img src="image/lakhau.png" alt="" />
-          </div>
-          <div class="description">
-            <p class="text">FAV</p>
-            <p class="playlist">
-              Playlist <span class="dot">.</span> Prajwal Bhattarai
-            </p>
-          </div>
-        </div>
-        <div class="song-playlist">
-          <div class="image">
-            <img src="image/samir.jpg" alt="" />
-          </div>
-          <div class="description">
-            <p class="text">Samir Shrestha Radio</p>
-            <p class="playlist">
-              Playlist <span class="dot">.</span> Spotify
-            </p>
-          </div>
-        </div>
-        <div class="song-playlist">
-          <div class="image">
-            <img src="image/elements.png" alt="" />
-          </div>
-          <div class="description">
-            <p class="text">The Elements Radio</p>
-            <p class="playlist">
-              Playlist <span class="dot">.</span> Spotify
-            </p>
-          </div>
-        </div>
-        <div class="song-playlist">
-          <div class="image">
-            <img src="image/arijit.jpg" alt="" />
-          </div>
-          <div class="description">
-            <p class="text">Arijit Singh Radio</p>
-            <p class="playlist">
-              Playlist <span class="dot">.</span> Spotify
-            </p>
-          </div>
-        </div>
-        <div class="song-playlist">
-          <div class="image">
-            <img src="image/sajjan.jpg" alt="" />
-          </div>
-          <div class="description">
-            <p class="text">Sajjan Raj Vaidya Radio</p>
-            <p class="playlist">
-              Playlist <span class="dot">.</span> Spotify
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="right">
-      <div class="top">
-        <div class="all">All</div>
-        <div class="icon">Music</div>
-        <div class="icon">Playlist</div>
-      </div>
-      <div class="mid">
-        <div class="info">
-          <div class="first">Made For Prajwal Bhattarai</div>
-          <div class="second">Show all</div>
-        </div>
-        <div class="mid-items">
-          <div class="box">
-            <img src="image/mid-item-1.png" alt="image" />
-            <div>Your weekly mixtake of fresh music. Enjoy new...</div>
-          </div>
-          <div class="box">
-            <img src="image/mid-item-2.png" alt="image" />
-            <div>AXIX, Sajjan Raj Vaidya, satish and more</div>
-          </div>
-          <div class="box">
-            <img src="image/mid-item-3.png" alt="image" />
-            <div>Anuv Jain and The Local Train</div>
-          </div>
-          <div class="box" id="anuv">
-            <img src="image/mid-item-4.png" alt="image" />
-            <div>Anjit Tiwari, Papon, Mithoon and more</div>
-          </div>
-          <div class="box">
-            <img src="image/mid-item-5.png" alt="image" />
-            <div>
-              Catch all the latest music from artists you follow, plus new...
+        </section>
+        <section class="right">
+            <div class="top">
+                <div class="all">All</div>
+                <div class="icon">Music</div>
+                <div class="icon">Playlist</div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="third-part">
-        <div class="popular-albums">
-          <div class="first">Popular Albums</div>
-          <div class="second">Show all</div>
-        </div>
-
-        <div class="album-container">
-          <div class="box">
-            <img src="image/vanana-matra.png" alt="image" />
-            <div class="image-description">
-              <div class="song">Vanana Matra</div>
-              <div class="singer">John Rai</div>
+            <div class="mid">
+                <div class="info">
+                    <div class="first">Made For Prajwal Bhattarai</div>
+                    <div class="second">Show all</div>
+                </div>
+                <div class="mid-items">
+                    <div class="box"> <img src="/images/mid-item-1.png" alt="image" />
+                        <div>Your weekly mixtake of fresh music. Enjoy new...</div>
+                    </div>
+                    <div class="box"> <img src="/images/mid-item-2.png" alt="image" />
+                        <div>AXIX, Sajjan Raj Vaidya, satish and more</div>
+                    </div>
+                    <div class="box"> <img src="/images/mid-item-3.png" alt="image" />
+                        <div>Anuv Jain and The Local Train</div>
+                    </div>
+                    <div class="box" id="anuv"> <img src="/images/mid-item-4.png" alt="image" />
+                        <div>Anjit Tiwari, Papon, Mithoon and more</div>
+                    </div>
+                    <div class="box"> <img src="/images/mid-item-5.png" alt="image" />
+                        <div> Catch all the latest music from artists you follow, plus new... </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="box">
-            <img src="image/bhikari.png" alt="image" />
-            <div class="image-description">
-              <div class="song">Bhikari</div>
-              <div class="singer">Oasis Thapa</div>
+            <div class="third-part">
+                <div class="popular-albums">
+                    <div class="first">Popular Albums</div>
+                    <div class="second">Show all</div>
+                </div>
+                <div class="album-container">
+                    <div class="box"> <img src="/images/vanana-matra.png" alt="image" />
+                        <div class="image-description">
+                            <div class="song">Vanana Matra</div>
+                            <div class="singer">John Rai</div>
+                        </div>
+                    </div>
+                    <div class="box"> <img src="/images/bhikari.png" alt="image" />
+                        <div class="image-description">
+                            <div class="song">Bhikari</div>
+                            <div class="singer">Oasis Thapa</div>
+                        </div>
+                    </div>
+                    <div class="box"> <img src="/images/monkey-temple-nepal.png" alt="image" />
+                        <div class="image-description" id="monkey-temple-nepal">
+                            <div class="song">Monkey Temple Nepal</div>
+                            <div class="singer">Monkey Temple Nepal</div>
+                        </div>
+                    </div>
+                    <div class="box"> <img src="/images/purna.jpg" alt="image" />
+                        <div class="image-description" id="sparsha-sangeet">
+                            <div class="song">Sparsh Sangeet</div>
+                            <div class="singer">Purna Rai</div>
+                        </div>
+                    </div>
+                    <div class="box"> <img src="/images/romance.png" alt="image" />
+                        <div class="image-description" id="romance">
+                            <div class="song">Best of Romance</div>
+                            <div class="singer">Atif Aslam, Pritam</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="box">
-            <img src="image/monkey-temple-nepal.png" alt="image" />
-            <div class="image-description" id="monkey-temple-nepal">
-              <div class="song">Monkey Temple Nepal</div>
-              <div class="singer">Monkey Temple Nepal</div>
             </div>
-          </div>
-          <div class="box">
-            <img src="image/purna.jpg" alt="image" />
-            <div class="image-description" id="sparsha-sangeet">
-              <div class="song">Sparsh Sangeet</div>
-              <div class="singer">Purna Rai</div>
-            </div>
-          </div>
-          <div class="box">
-            <img src="image/romance.png" alt="image" />
-            <div class="image-description" id="romance">
-              <div class="song">Best of Romance</div>
-              <div class="singer">Atif Aslam, Pritam</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <script src="index.js"></script>
+        </section>
+    </main>
+    <script src="index.js"></script>
 </body>
 
 </html>
